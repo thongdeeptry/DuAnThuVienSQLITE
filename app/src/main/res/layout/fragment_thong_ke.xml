@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/cardviewloai"
+    app:cardElevation="6dp" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tongsach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="4dp"
+            android:text="Tổng Sách :"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tongpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tongsach"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="0dp"
+            android:text="Tổng Phiếu Mượn :"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tongtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="75dp"
+            android:text="Tổng Thành Viên :"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tongloais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tongsach"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:text="Tổng Loại Sách :"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+
+
+        <ImageView
+            android:id="@+id/imtongsach"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/sach" />
+
+        <ImageView
+            android:id="@+id/imtongpm"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/phieumuon" />
+
+        <ImageView
+            android:id="@+id/imtongtv"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="83dp"
+            android:background="@drawable/tongtv" />
+
+        <ImageView
+            android:id="@+id/imloais"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="115dp"
+            android:background="@drawable/ic_baseline_insert_chart_24" />
+
+        <TextView
+            android:id="@+id/tongtienall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="140dp"
+            android:text="Tổng Doanh Thu :"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imtongtienall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/ic_baseline_insert_chart_24" />
+
+
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewloai7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ngaybd"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/whitecolor"
+                android:text="Từ ngày"
+                android:textColor="@color/teal_200" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ngaykt"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ngaybd"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="0dp"
+
+                android:background="@color/whitecolor"
+                android:text="Đến ngày"
+                android:textColor="@color/teal_200" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/tinhdt"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="60dp"
+                android:background="@color/whitecolor"
+                android:text="Tính Doanh Thu"
+                android:textColor="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/tongthuchi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:text="Doanh Thu Theo Ngày"
+                android:textColor="#86C7E4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tongtien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="140dp"
+                android:text="Doanh Thu :"
+                android:textColor="@color/teal_200"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imtongtien"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="145dp"
+                android:background="@drawable/ic_baseline_insert_chart_24" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

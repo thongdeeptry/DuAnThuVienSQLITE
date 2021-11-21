@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainframeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="338dp"
+        android:text=" Sách quốc văn: Ngoài danh mục sách đa dạng và phong phú của nhiều nhà xuất bản, công ty sách lớn nhỏ cả nước, Phương Nam còn chủ động khai thác bản quyền và liên kết xuất bản hàng ngàn đầu sách hay và giá trị với thương hiệu Phương Nam Book, trong đó nhiều tựa được đánh giá cao và lọt vào danh mục bán chạy của các hệ thống phát hành sách lớn nhất Việt Nam.
+Sách ngoại văn: Nhà Sách Phương Nam chủ động chọn lọc và phát hành tại Việt Nam danh mục sách tiếng Anh đa dạng của những nhà xuất bản lớn trên thế giới như Penguin Random House, Hachette Livre, HarperCollins, Macmillan Publishers, Simon  Schuster,… Nhiều tựa chỉ có duy nhất tại Nhà Sách Phương Nam, nhiều tựa được phát hành cùng thời điểm ra mắt của sách tại Anh và Mỹ.
+Dụng cụ học tập, văn phòng phẩm, đồ chơi, quà lưu niệm…phong phú, chính hãng, có nguồn gốc xuất xứ rõ ràng, đến từ những thương hiệu lớn trong và ngoài nước. Ngoài ra, Nhà Sách Phương Nam thường xuyên cập nhật xu hướng để giới thiệu nhiều sản phẩm mới nhằm đáp ứng thị hiếu và nhu cầu của khách hàng.
+Băng, đĩa: Với thương hiệu Phương Nam Phim, cái tên quen thuộc của nhiều người Việt với loạt phim Truyện Cổ Tích Việt Nam, Nhà Sách Phương Nam giới thiệu đến khách hàng nhiều băng đĩa nhạc của nhiều ca sĩ, nhạc sĩ nổi tiếng cùng danh mục phim điện ảnh, phim truyền hình được đông đảo khán giả yêu thích.
+Hi vọng với trang thương mại điện tử nhasachphuongnam.com, Nhà Sách Phương Nam có thể gia tăng tiện ích cho khách hàng, đồng thời mang những sản phẩm của hệ thống nhà sách đến với mọi khách hàng trên cả nước.
+Quý khách hàng có nhu cầu liên lạc, đóng góp ý kiến, phản hồi về sản phẩm dịch vụ của Nhà sách Phương Nam, vui lòng liên hệ:
+Hotline: 0334233235
+"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="114dp"
+        android:text="Thư Viện Phương Nam"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

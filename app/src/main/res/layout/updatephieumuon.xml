@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvudpm"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Chỉnh Sửa Phiếu Mượn"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nhapngaythuepm"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Ngày Thuê Mới"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/nhapngaytra"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Ngày Trả Mới"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/nhaptentv"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập NTên Người Mượn Mới"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Spinner
+        android:id="@+id/nhapmasachpm"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <CheckBox
+        android:id="@+id/nhaptrangthai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Đã Trả Sách" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/capnhatpm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/joinbtn"
+            android:text="Cập Nhật"
+            android:textColor="@color/whitecolor"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/huypm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/joinbtn"
+            android:text="Hủy"
+            android:textColor="@color/whitecolor"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+</LinearLayout>

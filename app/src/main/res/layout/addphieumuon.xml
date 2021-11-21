@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvaddpm"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Thêm Phiếu Mượn"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/addngaythuepm"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Ngày Thuê"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/addngaytra"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Ngày Trả"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/addtentv"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Tên Người Mượn"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Spinner
+        android:id="@+id/addmasachpm"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <CheckBox
+        android:id="@+id/addtrangthai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Đã Trả Sách" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/addpm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/joinbtn"
+            android:text="Thêm"
+            android:textColor="@color/whitecolor"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/huyaddpm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/joinbtn"
+            android:text="Hủy"
+            android:textColor="@color/whitecolor"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+</LinearLayout>

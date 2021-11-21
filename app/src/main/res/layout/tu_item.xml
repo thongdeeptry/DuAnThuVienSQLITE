@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardviewloai4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/mapm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Mã Phiếu Mượn"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ngaythuepm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapm"
+            android:layout_alignParentLeft="true"
+            android:text="Ngày Thuê"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tienthuepm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapm"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="38dp"
+            android:text="Tiền Thuê"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ngaytrapm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapm"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="75dp"
+            android:text="Ngày Trả"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tentvpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapm"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="112dp"
+            android:text="Tên Thành Viên"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/masachpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapm"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="150dp"
+            android:text="Mã Sách"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/trangthaipm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mapm"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="190dp"
+            android:text="Trạng Thái"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/editpm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/deletep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editpm"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/delete" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

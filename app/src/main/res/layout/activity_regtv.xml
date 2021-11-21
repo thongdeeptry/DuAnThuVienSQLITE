@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tao11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="Thêm Tài Khoản"
+            android:textColor="#009688"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/img"/>
+
+        <EditText
+            android:id="@+id/nhapuser11"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/hoten11"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Họ và Tên "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/nhappass11"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Mật Khẩu "
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/diachi11"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Nhập địa chỉ"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/sdt11"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Nhập Số Phone"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+        <ImageView
+            android:id="@+id/themanhtv"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/avt" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/regacc11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:elevation="5dp"
+                android:text="Create Account"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/huy11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:elevation="5dp"
+                android:text="Hủy"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

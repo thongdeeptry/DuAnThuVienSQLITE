@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập Nhật Thông Tin"
+            android:id="@+id/tvud"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#009688"
+            android:textSize="25dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img">
+
+            <ImageView
+                android:id="@+id/avtud"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_account" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/dthtcn"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Họ và Tên "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/mkcucn"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Mật Khẩu Cũ"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/mkmoicn"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Mật Khẩu Mới"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/remkmoicn"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Nhập lại mật khẩu mới"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/capnhatcn"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:text="Cập Nhật"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/huycn"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:text="Hủy"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

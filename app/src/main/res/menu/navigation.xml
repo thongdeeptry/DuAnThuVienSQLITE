@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/caidat"
+        android:icon="@drawable/setting"
+        android:title="Cài Đặt" />
+
+    <item
+        android:id="@+id/sua"
+        android:icon="@drawable/edit"
+        android:title="Sửa" />
+
+    <item
+        android:id="@+id/them"
+        android:icon="@drawable/add"
+        android:title="Thêm" />
+
+    <item
+        android:id="@+id/xoa"
+        android:icon="@drawable/delete"
+        android:title="Xoá" />
+</menu>

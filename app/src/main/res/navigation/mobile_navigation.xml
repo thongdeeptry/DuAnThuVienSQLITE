@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.duanmau.HomeFragment"
+        android:label="Quản Lý Thư Viện"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_phieumuon"
+        android:name="com.example.duanmau.QuanLyPhieuMuonFragment"
+        android:label="Quản Lý Thư Viện"
+        tools:layout="@layout/fragment_quan_ly_phieu_muon" />
+
+    <fragment
+        android:id="@+id/nav_loaisach"
+        android:name="com.example.duanmau.QuanLyLoaiSachFragment"
+        android:label="Quản Lý Thư Viện"
+        tools:layout="@layout/fragment_quan_ly_loai_sach" />
+    <fragment
+        android:id="@+id/nav_sach"
+        android:name="com.example.duanmau.QuanLySachFragment"
+        android:label="Quản Lý Thư Viện"
+        tools:layout="@layout/fragment_quan_ly_sach" />
+    <fragment
+        android:id="@+id/nav_thanhvien"
+        android:name="com.example.duanmau.QuanLyThanhVienFragment"
+        android:label="Quản Lý Thư Viện"
+        tools:layout="@layout/doipass" />
+    <fragment
+        android:id="@+id/nav_muonsach"
+        android:name="com.example.duanmau.MuonSachFragment"
+        android:label="Mượn Sách"
+        tools:layout="@layout/fragment_muon_sach" />
+    <fragment
+        android:id="@+id/nav_thanhvienql"
+        android:name="com.example.duanmau.ThanhVienFragment"
+        android:label="Quản Lý Thành Viên"
+        tools:layout="@layout/doipass11" />s
+    <fragment
+        android:id="@+id/nav_10sach"
+        android:name="com.example.duanmau.SachMuonNhieuNhatFragment"
+        android:label="Quản Lý Thư Viện"
+        tools:layout="@layout/fragment_sach_muon_nhieu_nhat" />
+    <fragment
+        android:id="@+id/nav_doanhthu"
+        android:name="com.example.duanmau.TongDoanhThuFragment"
+        tools:layout="@layout/fragment_tong_doanh_thu"
+        android:label="Quản Lý Thư Viện" />
+    <fragment
+        android:id="@+id/nav_gioithieu"
+        android:name="com.example.duanmau.GioiThieuFragment"
+        tools:layout="@layout/fragment_gioi_thieu"
+        android:label="Quản Lý Thư Viện" />
+    <fragment
+            android:id="@+id/nav_doimk"
+        android:name="com.example.duanmau.DoiMatKhauFragment"
+        tools:layout="@layout/fragment_doi_mat_khau"
+        android:label="Quản Lý Thư Viện" />
+    <fragment
+        android:id="@+id/nav_doimktv"
+        android:name="com.example.duanmau.DoiMatKhauTVFragment"
+        tools:layout="@layout/fragment_changepasstv"
+        android:label="Quản Lý Thư Viện" />
+    <fragment
+        android:id="@+id/nav_thoat"
+        android:name="com.example.duanmau.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="Quản Lý Thư Viện" />
+</navigation>

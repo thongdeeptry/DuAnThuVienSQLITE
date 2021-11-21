@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/setting"
+        android:orderInCategory="100"
+        android:title="Cài Đặt"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/lienhe"
+        android:icon="@drawable/setting"
+        android:orderInCategory="100"
+        android:title="Liên Hệ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/baocao"
+        android:icon="@drawable/setting"
+        android:orderInCategory="100"
+        android:title="Góp ý"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/danhgia"
+        android:icon="@drawable/setting"
+        android:orderInCategory="100"
+        android:title="Đánh Giá"
+        app:showAsAction="never" />
+</menu>

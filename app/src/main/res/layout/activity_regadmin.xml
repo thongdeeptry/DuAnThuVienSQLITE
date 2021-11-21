@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tao1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="Thêm Tài Khoản"
+            android:textColor="#009688"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/img">
+
+            <ImageView
+                android:id="@+id/avtreg1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_account" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/nhapuser1"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/hoten1"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Họ và Tên "
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/nhappass1"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint=" Mật Khẩu "
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/nhappquyen"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Nhập quyền"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/themanh"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/avt" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/regacc1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:elevation="5dp"
+                android:text="Create Account"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/huy"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:elevation="5dp"
+                android:text="Hủy"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

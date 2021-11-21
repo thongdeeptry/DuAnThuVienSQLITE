@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home1"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_phieumuon1"
+            android:icon="@drawable/phieumuon"
+            android:title="Quản Lý Phiếu Mượn" />
+        <item
+            android:id="@+id/nav_loaisach1"
+            android:icon="@drawable/loaisach"
+            android:title="Quản Lý Loại Sách" />
+        <item
+            android:id="@+id/nav_sach1"
+            android:icon="@drawable/sach"
+            android:title="Quản Lý Sách" />
+        <item
+            android:id="@+id/nav_thanhvien1"
+            android:icon="@drawable/thanhvien"
+            android:title="Quản Lý Thủ Thư" />
+        <item
+            android:id="@+id/nav_muonsach1"
+            android:icon="@drawable/sach"
+            android:title="Xem Sách" />
+        <item
+            android:id="@+id/nav_thanhvien11"
+            android:icon="@drawable/thanhvien"
+            android:title="Quản Lý Thành Viên" />
+
+    </group>
+    <item android:title="Thống Kê">
+        <menu >
+            <item android:title="Top Sách Mượn Nhiều Nhất"
+                android:id="@+id/nav_10sach1"
+                android:icon="@drawable/top10"/>
+            <item android:title="Tổng Doanh Thu"
+                android:id="@+id/nav_doanhthu1"
+                android:icon="@drawable/thongke"/>
+        </menu>
+    </item>
+    <item android:title="Người Dùng">
+        <menu >
+            <item android:title="Giới Thiệu"
+                android:id="@+id/nav_gioithieu1"
+                android:icon="@drawable/gioithieu"/>
+            <item android:title="Cập Nhật Thông Tin"
+                android:id="@+id/nav_doimka"
+                android:icon="@drawable/edit"/>
+            <item android:title="Cập Nhật Thông Tin"
+                android:id="@+id/nav_doimktv1"
+                android:icon="@drawable/edit"/>
+            <item android:title="Đăng Xuất"
+                android:id="@+id/nav_thoat"
+                android:icon="@drawable/thoat"/>
+        </menu>
+    </item>
+</menu>

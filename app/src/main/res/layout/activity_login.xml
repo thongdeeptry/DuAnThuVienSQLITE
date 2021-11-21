@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/brd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/dangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:fontFamily="sans-serif-medium"
+            android:text="Đăng Nhập Hệ Thống"
+            android:textColor="#009688"
+            android:textSize="25dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/img">
+
+            <ImageView
+                android:id="@+id/avt"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_account" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="355dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/pquyen"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Lưu Mật Khẩu"
+            android:textColor="@color/greencolor"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:text="Login"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/joinbtn"
+                android:elevation="5dp"
+                android:text="Reset"
+                android:textColor="@color/whitecolor"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

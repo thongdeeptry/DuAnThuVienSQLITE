@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvadds"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Thêm Sách"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/tens"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Tên Sách"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+    <EditText
+        android:id="@+id/gias"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:hint="Nhập Giá Sách"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+    <Spinner
+        android:id="@+id/maloais"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn"
+        android:elevation="5dp"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/adds"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/joinbtn"
+            android:text="Thêm Sách"
+            android:textColor="@color/whitecolor"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/huyadds"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/joinbtn"
+            android:text="Hủy"
+            android:textColor="@color/whitecolor"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+</LinearLayout>

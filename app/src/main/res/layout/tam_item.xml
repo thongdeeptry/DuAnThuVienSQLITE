@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardviewloai3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/ids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Tên Sách"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ids"
+            android:layout_alignParentLeft="true"
+            android:text="Gía Tiền"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/maloais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ids"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="38dp"
+            android:text="Mã Loại"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/edits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/edit" />
+
+        <ImageView
+            android:id="@+id/deletes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edits"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/delete" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
